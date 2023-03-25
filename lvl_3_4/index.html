@@ -14,6 +14,36 @@
   </head>
 
   <body>
+    <form action="input" onsubmit="return false" id="form">
+      <label for="maximale">Maximale Zahl</label>
+      <input type="number" class="inputNumber" />
+
+      <h3>Erste Zahl</h3>
+      <select name="select1" id="select1">
+        <option class="option_2">2</option>
+        <option class="option_3">3</option>
+        <option class="option_4">4</option>
+        <option class="option_5">5</option>
+        <option class="option_6">6</option>
+        <option class="option_7">7</option>
+        <option class="option_8">8</option>
+        <option class="option_9">9</option>
+      </select>
+
+      <h3>Zweite Zahl</h3>
+      <select name="select2" id="select2">
+        <option class="option_2">2</option>
+        <option class="option_3">3</option>
+        <option class="option_4">4</option>
+        <option class="option_5">5</option>
+        <option class="option_6">6</option>
+        <option class="option_7">7</option>
+        <option class="option_8">8</option>
+        <option class="option_9">9</option>
+      </select>
+    </form>
+    <button onclick="checkCount()">Count me</button>
+    <div class="result"></div>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
